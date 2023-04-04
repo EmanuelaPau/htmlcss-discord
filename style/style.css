@@ -274,6 +274,7 @@ p{
 .footer-icon-list {
     list-style-type: none;
     padding-top: 1rem;
+    gap: 20px;
 }
 
 .footer-list {
