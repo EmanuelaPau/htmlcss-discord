@@ -24,7 +24,7 @@ a:hover {
 
 footer {
     background-color: #23272a;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: white;
 }
 
@@ -217,15 +217,18 @@ p{
 
 .footer-top {
     padding-top:80px;
-    padding-bottom: 30px;
+}
+
+.footer-top-container{
+    margin-bottom: 30px;
 }
 
 .footer-top-big-column {
     flex-basis: calc((100% / 6) + (100% / 6));
+    padding-right: 30px;
 }
 
 .footer-top-small-column {
-    background-color: #20b2aa;
     flex-basis: calc(100% / 6);
 }
 
@@ -241,6 +244,31 @@ p{
 
 .footer-link {
     padding: 5px;
+}
+
+.footer-icon {
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.text-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+
+.footer-icon-list {
+    list-style-type: none;
+    padding-top: 1rem;
+    gap: 20px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+ul.footer-list li a {
+    line-height: 2rem;
 }
 
 /* Colori  */
@@ -261,25 +289,7 @@ p{
     color: #6f86d5
 }
 
-.footer-icon {
-    height: 1rem;
-    vertical-align: middle;
-}
 
-.text-icon {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.footer-icon-list {
-    list-style-type: none;
-    padding-top: 1rem;
-    gap: 20px;
-}
-
-.footer-list {
-
-}
 
 /* Colori:
 header top: #add8e6
