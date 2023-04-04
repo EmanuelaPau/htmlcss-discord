@@ -156,10 +156,8 @@ p{
     justify-content: center;
 }
 
-.container-grey.flex{
+.container-reverse {
     flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
 }
 
 .main-txt-row {
@@ -233,7 +231,7 @@ p{
 }
 
 .grey {
-    background-color:#d3d3d3;
+    background-color: #f6f6f6;
 }
 /* Colori:
 header top: #add8e6
