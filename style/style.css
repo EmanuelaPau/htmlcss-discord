@@ -143,7 +143,7 @@ p{
     /* Box Shadow Credits: Tailwind CSS  */
 }
 
-.main-big-content-row .button-white-big:hover , .nav-button-container .button-white-small:hover {
+.main-big-content-row .button-white-big:hover , .footer-button-container .nav-button-container .button-white-small:hover {
     color: white;
     background-color: #a5b6ed;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
