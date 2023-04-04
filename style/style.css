@@ -26,6 +26,12 @@ footer {
     background-color: #23272a;
 }
 
+hr {
+    height: 1px;
+    border: none;
+}
+
+/* text styles  */
 h1 {
     font-size: 3.8rem;
     padding-bottom: 3rem;
@@ -67,14 +73,6 @@ p{
 
 .text-center-align {
     text-align: center;
-}
-
-.bordi-neri{
-    border: 2px dashed black;
-}
-
-.bordi-bianchi {
-    border: 2px dashed white;
 }
 
 /* Header */
@@ -240,10 +238,9 @@ p{
 }
 
 .footer-bottom-container {
-    height: 70px;
-    background-color: #7fffd4;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 70px;
 }
 
 .footer-link {
@@ -256,16 +253,16 @@ p{
     background-color: #23272a;
 }
 
-.pink {
-    background-color: #ffb6c1 ;
-}
-
 .grey {
     background-color: #f6f6f6;
 }
 
 .light-purple {
     background-color: #8ea1e1;
+}
+
+.text-purple {
+    color: #6f86d5
 }
 
 /* Colori:
