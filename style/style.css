@@ -8,6 +8,7 @@
 body {
     font-family: 'Cabin', sans-serif;
     font-size: 1.2rem;
+    color: #23272a;
 }
 
 a {
@@ -27,7 +28,14 @@ footer {
 
 h1 {
     font-size: 3.8rem;
+    font-weight: 700;
     padding-bottom: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 p{
@@ -137,17 +145,14 @@ p{
     padding-bottom: 45px;
 }
 
+/* Main Section  */
+
 .main-row {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding: 100px 0 50px;
 }
 
-.grey {
-    background-color:#d3d3d3;
-}
-
-.container-white.flex{
-    align-items: center;
+.container-white{
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -158,15 +163,15 @@ p{
 }
 
 .main-txt-row {
-    height: 430px;
     flex-basis: 60%;
-    background-color: #1e90ff;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
 }
 
 .main-img-row {
     height: 430px;
     flex-basis: 40%;
-    background-color: #ffc0cb ;
 }
 
 .main-big-content-row.flex{
@@ -227,6 +232,9 @@ p{
     background-color: #ffb6c1 ;
 }
 
+.grey {
+    background-color:#d3d3d3;
+}
 /* Colori:
 header top: #add8e6
 nav: #daa520
