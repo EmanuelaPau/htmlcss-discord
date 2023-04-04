@@ -7,12 +7,13 @@
 
 body {
     font-family: 'Cabin', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-a {;
+a {
     text-decoration:none;
     color: white;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -22,6 +23,15 @@ a:hover {
 
 footer {
     background-color: #23272a;
+}
+
+h1 {
+    font-size: 3.8rem;
+    padding-bottom: 3rem;
+}
+
+p{
+    line-height: 1.7rem;
 }
 
 .flex {
@@ -34,8 +44,18 @@ footer {
 }
 
 .container-small {
-    max-width: 800px;
+    max-width: 680px;
     margin: 0 auto;
+    align-items: center;
+    padding: 50px 0 100px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center-align {
+    text-align: center;
 }
 
 .bordi-neri{
@@ -83,19 +103,29 @@ footer {
     justify-content: flex-end;
 }
 
-.button-white {
-    height: 34px;
-    width: 64px;
+.button-white-small {
+    padding: 6px 15px;
     background-color: white;
     border: none;
-    border-radius: 17px;
+    border-radius: 14px;
     font-family: 'Cabin', sans-serif;
+    font-weight: 500;
 }
 
-.button-white:hover {
+.button-white-big:hover , .button-white-small:hover{
     color: #6f86d5;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     /* Box Shadow Credits: Tailwind CSS  */
+}
+
+.button-white-big {
+    padding: 14px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 10px;
 }
 
 .header-bottom {
@@ -103,16 +133,9 @@ footer {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    height: 600px;
     padding-top: 45px;
     padding-bottom: 45px;
 }
-
-.header-container-info {
-    background-color: #ee82ee;
-    height: 350px;
-}
-
 
 .main-row {
     padding-top: 45px;
@@ -192,6 +215,12 @@ footer {
 
 .footer-link {
     padding: 5px;
+}
+
+/* Colori  */
+
+.dark-grey {
+    background-color: #23272a;
 }
 
 .pink {
