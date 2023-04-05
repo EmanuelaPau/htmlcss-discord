@@ -21,7 +21,6 @@ a:hover {
     text-decoration: underline;
   }
 
-
 footer {
     background-color: #23272a;
     font-size: 1rem;
@@ -130,7 +129,6 @@ p{
     font-weight: 500;
 }
 
-/* non funziona */
 .arrow-down {
     display: inline-block;
     font-weight: bold;
@@ -172,13 +170,11 @@ p{
 /* Main Section  */
 
 .img-wave {
-    width: 100%;
     height: 120px;
     fill: #f6f6f6;
 }
 
 .img-wave-bottom {
-    width: 100%;
     height: 120px;
     fill: #f6f6f6;
     transform: rotate(180deg);
@@ -186,6 +182,10 @@ p{
 
 .main-row {
     padding: 100px 0;
+}
+
+svg {
+    width: 100%;
 }
 
 .container-white{
@@ -297,7 +297,6 @@ ul.footer-list li a {
     line-height: 2rem;
 }
 
-
 /* Colori  */
 
 .dark-grey {
@@ -315,22 +314,3 @@ ul.footer-list li a {
 .text-purple {
     color: #6f86d5
 }
-
-
-
-/* Colori:
-header top: #add8e6
-nav: #daa520
-header blu: #00008b
-header rosa: #ee82ee
-
-main blu: #1e90ff
-main rosa: #ffc0cb
-main grigio: #d3d3d3
-main verde: 
-
-footer grigio: #23272a
-footer rosa: #f08080    
-footer verde: #20b2aa
-footer down: #7fffd4
-footer bottoni: #ffb6c1 */
